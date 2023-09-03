@@ -1,0 +1,26 @@
+#/bin/bash
+
+echo “enter value of 1st num”
+
+read a
+
+echo “enter value for nd num”
+
+read b
+
+echo “Addition”
+
+expr $a  +  $b `
+
+echo “Substraction”
+
+expr $a  -  $b `	
+
+echo “multiplication”
+
+expr $a  \*  $b `
+
+echo “division”
+
+expr $a / $b
+
