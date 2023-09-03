@@ -1,0 +1,6 @@
+echo “ROLL NO   :  ” $1
+
+echo “NAME   :  ” $2
+
+echo “MARK   :  ” $3
+
