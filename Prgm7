@@ -1,0 +1,20 @@
+read -p “enter file name:” file
+
+echo $file “is the entered file name”
+
+if [  -d “$file” ]
+
+then
+
+echo “it is a file”
+
+else
+
+echo “it is not a file”
+
+touch  $file
+
+echo “file created”
+
+fi
+
