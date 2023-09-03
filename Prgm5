@@ -1,0 +1,14 @@
+read -p “Enter two strings:” str1 str2
+
+if [ $string1 = $string2 ]
+
+then
+
+echo “string are equal”
+
+else
+
+echo “strings are not equal”
+
+fi
+
